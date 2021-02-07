@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
 encoding//Feature/reservationFeature.feature=UTF-8
+encoding//src/main/java/uni/fmi/project/services/MakeReservationService.java=UTF-8
+encoding//src/test/java/uni/fmi/project/MovieReservationSteps.java=UTF-8
+encoding//src/test/java/uni/fmi/project/models/MovieReservationScreen.java=UTF-8
