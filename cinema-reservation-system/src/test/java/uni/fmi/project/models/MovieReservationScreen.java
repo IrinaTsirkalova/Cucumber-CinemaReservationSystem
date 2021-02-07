@@ -15,7 +15,7 @@ public class MovieReservationScreen {
 	
 	
 	public void openScreen() {
-		System.out.println("Екранът за резервация на филм е отворен!");
+		System.out.println("Р•РєСЂР°РЅСЉС‚ Р·Р° СЂРµР·РµСЂРІР°С†РёСЏ РЅР° С„РёР»Рј Рµ РѕС‚РІРѕСЂРµРЅ!");
 	}
 	
 	public void setUserDateAndTime(Date userDateAndTime) {
