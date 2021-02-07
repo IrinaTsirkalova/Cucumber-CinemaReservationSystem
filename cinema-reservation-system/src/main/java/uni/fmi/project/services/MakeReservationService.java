@@ -72,7 +72,7 @@ public class MakeReservationService {
 		
 	}
   
-  //Parse String to Date
+  //Parse String to date
   public static Date parseStringToDate(String dateToBeParsed){
 	    Date result = null;
 	    try{
