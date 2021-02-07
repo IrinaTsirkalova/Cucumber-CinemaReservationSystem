@@ -1,19 +1,24 @@
 package uni.fmi.project;
+
 import static org.junit.Assert.assertEquals;
 
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import uni.fmi.project.models.MovieReservationScreen;
 
 public class MovieReservationSteps {
-
-	MovieReservationScreen movieReservationScreen = new MovieReservationScreen();
 	
-	@Given("^Потребителя отваря екрана за резервация на филм на \"([^\"]*)\"$")
-	public void openReservationScreen(String userDateAndTime) throws Throwable {
+    MovieReservationScreen movieReservationScreen = new MovieReservationScreen();
+	
+	@Given("^РџРѕС‚СЂРµР±РёС‚РµР»СЏ РѕС‚РІР°СЂСЏ РµРєСЂР°РЅР° Р·Р° СЂРµР·РµСЂРІР°С†РёСЏ РЅР° С„РёР»Рј РЅР° \"([^\"]*)\"$")
+    public void openReservationScreen(String userDateAndTime) throws Throwable {
 		
 		//parse userDateAndTime to Date type
 		Date userDateAndTime2  = new SimpleDateFormat("dd-MM-yyyy HH:mm").parse(userDateAndTime);
@@ -22,15 +27,15 @@ public class MovieReservationSteps {
 	    movieReservationScreen.openScreen();
 	}
 
-	@Given("^Избира името на филма \"([^\"]*)\"$")
-	public void chooseMovie(String movieName) throws Throwable {
+	@Given("^РР·Р±РёСЂР° РёРјРµС‚Рѕ РЅР° С„РёР»РјР° \"([^\"]*)\"$")
+    public void chooseMovie(String movieName) throws Throwable {
 		
 		Movie movie = new Movie();
 	    movie.setMovieName(movieName);
 		movieReservationScreen.setMovie(movie);
 	}
 
-	@When("^Избира датата и часа на прожекцията \"([^\"]*)\"$")
+	@When("^РР·Р±РёСЂР° РґР°С‚Р°С‚Р° Рё С‡Р°СЃР° РЅР° РїСЂРѕР¶РµРєС†РёСЏС‚Р° \"([^\"]*)\"$")
 	public void chooseTimeAndDate(String reservationDate) throws Throwable {
 	    Date reservationDate2;
 	    
@@ -44,13 +49,13 @@ public class MovieReservationSteps {
 	    
 	}
 
-	@When("^Избира броя на билетите \"([^\"]*)\"$")
+	@When("^РР·Р±РёСЂР° Р±СЂРѕСЏ РЅР° Р±РёР»РµС‚РёС‚Рµ \"([^\"]*)\"$")
 	public void chooseNumberOfTickets(int numberOfTickets) throws Throwable {
 		 movieReservationScreen.setNumberOfTickets(numberOfTickets);
 	}
-
-	@When("^Избира местата \"([^\"]*)\", \"([^\"]*)\"$")
-	public void chooseSeat(String seat1, String seat2) throws Throwable {
+	
+	@When("^РР·Р±РёСЂР° РјРµСЃС‚Р°С‚Р° \"([^\"]*)\", \"([^\"]*)\"$")
+    public void chooseSeat(String seat1, String seat2) throws Throwable {
 		
 		List<String> chosenSeats = new ArrayList<String>();
 		chosenSeats.add(seat1);
@@ -62,14 +67,21 @@ public class MovieReservationSteps {
 	    movieReservationScreen.setSeats(chosenSeats);
 	}
 
-	@When("^Натиска върху бутона за резервация\\.$")
+	@When("^РќР°С‚РёСЃРєР° РІСЉСЂС…Сѓ Р±СѓС‚РѕРЅР° Р·Р° СЂРµР·РµСЂРІР°С†РёСЏ\\.$")
 	public void clickReservationButton() throws Throwable {
 	    movieReservationScreen.clickReservationButton();
 	}
 
-	@Then("^Вижда съобщение \"([^\"]*)\"\\.$")
+
+	@Then("^Р’РёР¶РґР° СЃСЉРѕР±С‰РµРЅРёРµ \"([^\"]*)\"\\.$")
 	public void receiveMessage(String expectedMessage) throws Throwable {
 		 assertEquals(expectedMessage,movieReservationScreen.getReservationMessage());	
 	}
+
+
+	
+
+	
+
 
 }

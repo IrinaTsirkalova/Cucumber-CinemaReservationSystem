@@ -3,7 +3,7 @@ package uni.fmi.project.services;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
-
+import java.util.concurrent.TimeUnit;
 
 import uni.fmi.project.Movie;
 import uni.fmi.project.Reservation;
@@ -32,16 +32,21 @@ public class MakeReservationService {
 						&& reservation.getDate().equals(movieDateAndTime));
         
         
-        Date userTimeAfter60MinBeforeMovie = parseStringToDate("06-02-2021 17:30");
+       // Date userTimeAfter60MinBeforeMovie = parseStringToDate("06-02-2021 17:30");  
+       // LocalTime userTimeBefore = LocalTime.parse("17:31"); 
+       // String userTimeString = new SimpleDateFormat("H:mm").format(userDate);//userTime
+       //LocalTime userTime = LocalTime.parse(userTimeString);
+       // String movieTimeString = new SimpleDateFormat("H:mm").format(movieDateAndTime);
+       //LocalTime movieTime = LocalTime.parse(movieTimeString);
+       //int isAfter = userTime.compareTo(userTimeBefore);
+      
+        long diffInMillies = Math.abs(userDate.getTime() - movieDateAndTime.getTime());
+        long diffDay = TimeUnit.DAYS.convert(diffInMillies, TimeUnit.MILLISECONDS);
+        long diffTime = TimeUnit.MINUTES.convert(diffInMillies, TimeUnit.MILLISECONDS);
         
-        //LocalTime userTimeBefore = LocalTime.parse("17:31");
-        //String userTimeString = new SimpleDateFormat("H:mm").format(userDate);
-        //LocalTime userTime = LocalTime.parse(userTimeString);
-        //int isAfter = userTime.compareTo(userTimeBefore);
-        
-        if(isSeatTaken  && userDate.compareTo(userTimeAfter60MinBeforeMovie)>0) {
+        if(isSeatTaken  && diffDay == 0 && diffTime < 60) {
 			return "Неуспешна резервация. Не можете да направите резервация по-късно от 60 минути преди филма. Избраните места са заети";
-		}else if(userDate.compareTo(userTimeAfter60MinBeforeMovie)>0) {
+		}else if(diffDay == 0 && diffTime < 60) {
 			return "Неуспешна резервация. Не можете да направите резервация по-късно от 60 минути преди филма";
 		}
         
