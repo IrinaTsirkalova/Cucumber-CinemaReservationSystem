@@ -10,7 +10,7 @@ import uni.fmi.project.Reservation;
 
 public class MakeReservationService {
 
-	public static String makeReservation(Date userDate, Movie movie, Date movieDateAndTime, int numberOfTickets, List<String> seats) {
+	public static String makeReservation(Date userDate, Movie movie, Date movieDateAndTime, int numberOfTickets, List<String> seats, String hall) {
 		
 		if(movie.getMovieName() == null || movie.getMovieName().isEmpty()) {
 			return "Неуспешна резервация. Моля изберете филм";
@@ -29,7 +29,8 @@ public class MakeReservationService {
 
         boolean isSeatTaken = reservations.parallelStream()
 				.anyMatch(reservation-> reservation.getSeats().equals(seats)
-						&& reservation.getDate().equals(movieDateAndTime));
+						&& reservation.getDate().equals(movieDateAndTime)
+						&& reservation.getHall().equals(hall));
         
         
        
@@ -61,7 +62,8 @@ public class MakeReservationService {
 		List<String> seats = new ArrayList<String>();
 		seats.add("11");
 		seats.add("12");
-		Reservation movieReservation = new Reservation(4586,date,movie,2,seats);
+		String hall = "B";
+		Reservation movieReservation = new Reservation(4586,date,movie,2,seats, hall);
 
 		List<Reservation> reservations = new ArrayList<Reservation>();
 		reservations.add(movieReservation);

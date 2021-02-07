@@ -1,6 +1,7 @@
 package uni.fmi.project.models;
 import java.util.*;
 
+import uni.fmi.project.Hall;
 import uni.fmi.project.Movie;
 import uni.fmi.project.services.MakeReservationService;
 
@@ -12,6 +13,7 @@ public class MovieReservationScreen {
 	int numberOfTickets;
 	List<String> seats;
 	String message;
+	String hallName;
 	
 	
 	public void openScreen() {
@@ -39,8 +41,13 @@ public class MovieReservationScreen {
 		this.seats = seats;
 		
 	}
+	
+	public void setHallName(String hallName) {
+          this.hallName = hallName;
+
+	}
 	public void clickReservationButton() {
-		message = MakeReservationService.makeReservation(userDateAndTime, movie,dateAndTime,numberOfTickets,seats);
+		message = MakeReservationService.makeReservation(userDateAndTime, movie,dateAndTime,numberOfTickets,seats, hallName);
 		
 	}
 

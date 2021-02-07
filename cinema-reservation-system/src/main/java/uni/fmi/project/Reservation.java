@@ -12,6 +12,7 @@ public class Reservation {
     private User user;
     private int numberOfTickets;
     private List<String> seats;
+    private String hallName;
 
 
     /**
@@ -21,12 +22,13 @@ public class Reservation {
     	
     }
 
-	public Reservation(int id,Date date, Movie movie, int numberOfTickets,List<String> seats) {
+	public Reservation(int id,Date date, Movie movie, int numberOfTickets,List<String> seats,String hallName) {
 		this.id = id;
 		this.date = date;
 		this.movie = movie;
 		this.numberOfTickets = numberOfTickets;
 		this.seats = seats;
+		this.hallName = hallName;
 	}
 
 
@@ -116,6 +118,22 @@ public class Reservation {
 	public void setSeats(List<String> seats) {
 		this.seats = seats;
 	}
+
+	/**
+	 * @return the hall
+	 */
+	public String getHall() {
+		return hallName;
+	}
+
+	/**
+	 * @param hall the hall to set
+	 */
+	public void setHall(Hall hall) {
+		this.hallName = hallName;
+	}
+
+	
 	
 	
 

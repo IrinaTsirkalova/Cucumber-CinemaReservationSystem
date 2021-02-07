@@ -27,7 +27,7 @@ public class MovieReservationSteps {
 	    movieReservationScreen.openScreen();
 	}
 
-	@Given("^Избира името на филма \"([^\"]*)\"$")
+	@When("^Избира името на филма \"([^\"]*)\"$")
     public void chooseMovie(String movieName) throws Throwable {
 		
 		Movie movie = new Movie();
@@ -54,8 +54,8 @@ public class MovieReservationSteps {
 		 movieReservationScreen.setNumberOfTickets(numberOfTickets);
 	}
 	
-	@When("^Избира местата \"([^\"]*)\", \"([^\"]*)\"$")
-    public void chooseSeat(String seat1, String seat2) throws Throwable {
+	@When("^Избира местата \"([^\"]*)\", \"([^\"]*)\" за зала \"([^\"]*)\"$")
+    public void chooseSeat(String seat1, String seat2, String hall) throws Throwable {
 		
 		List<String> chosenSeats = new ArrayList<String>();
 		chosenSeats.add(seat1);
@@ -65,6 +65,7 @@ public class MovieReservationSteps {
 		chosenSeats.add(seat2);
 		}
 	    movieReservationScreen.setSeats(chosenSeats);
+	    movieReservationScreen.setHallName(hall);
 	}
 
 	@When("^Натиска върху бутона за резервация\\.$")
