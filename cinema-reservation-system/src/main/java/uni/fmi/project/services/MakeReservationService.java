@@ -33,6 +33,7 @@ public class MakeReservationService {
         
         
         Date userTimeAfter60MinBeforeMovie = parseStringToDate("06-02-2021 17:30");
+        
         //LocalTime userTimeBefore = LocalTime.parse("17:31");
         //String userTimeString = new SimpleDateFormat("H:mm").format(userDate);
         //LocalTime userTime = LocalTime.parse(userTimeString);
@@ -71,6 +72,7 @@ public class MakeReservationService {
 		
 	}
   
+  //Parse String to Date
   public static Date parseStringToDate(String dateToBeParsed){
 	    Date result = null;
 	    try{
