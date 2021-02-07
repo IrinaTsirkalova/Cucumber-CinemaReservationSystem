@@ -22,12 +22,12 @@ formatter.step({
 formatter.step({
   "line": 5,
   "name": "Избира името на филма \"Железният човек\"",
-  "keyword": "And "
+  "keyword": "When "
 });
 formatter.step({
   "line": 6,
   "name": "Избира датата и часа на прожекцията \"06-02-2021 18:30\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 7,
@@ -36,7 +36,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "Избира местата \"14\", \"15\"",
+  "name": "Избира местата \"14\", \"15\" за зала \"B\"",
   "keyword": "And "
 });
 formatter.step({
@@ -59,7 +59,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 181865200,
+  "duration": 84995500,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 98600,
+  "duration": 65300,
   "status": "passed"
 });
 formatter.match({
@@ -85,7 +85,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 290400,
+  "duration": 238300,
   "status": "passed"
 });
 formatter.match({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 934000,
+  "duration": 823300,
   "status": "passed"
 });
 formatter.match({
@@ -110,19 +110,23 @@ formatter.match({
     {
       "val": "15",
       "offset": 22
+    },
+    {
+      "val": "B",
+      "offset": 35
     }
   ],
-  "location": "MovieReservationSteps.chooseSeat(String,String)"
+  "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 119600,
+  "duration": 88600,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 79526600,
+  "duration": 46794200,
   "status": "passed"
 });
 formatter.match({
@@ -135,7 +139,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 2504900,
+  "duration": 1624900,
   "status": "passed"
 });
 formatter.scenario({
@@ -154,12 +158,12 @@ formatter.step({
 formatter.step({
   "line": 14,
   "name": "Избира името на филма \"Железният човек\"",
-  "keyword": "And "
+  "keyword": "When "
 });
 formatter.step({
   "line": 15,
   "name": "Избира датата и часа на прожекцията \"06-02-2021 18:30\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 16,
@@ -168,7 +172,7 @@ formatter.step({
 });
 formatter.step({
   "line": 17,
-  "name": "Избира местата \"11\", \"12\"",
+  "name": "Избира местата \"11\", \"12\" за зала \"B\"",
   "keyword": "And "
 });
 formatter.step({
@@ -191,7 +195,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 505600,
+  "duration": 329400,
   "status": "passed"
 });
 formatter.match({
@@ -204,7 +208,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 81500,
+  "duration": 80100,
   "status": "passed"
 });
 formatter.match({
@@ -217,7 +221,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 400300,
+  "duration": 215300,
   "status": "passed"
 });
 formatter.match({
@@ -230,7 +234,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 97200,
+  "duration": 59000,
   "status": "passed"
 });
 formatter.match({
@@ -242,19 +246,23 @@ formatter.match({
     {
       "val": "12",
       "offset": 22
+    },
+    {
+      "val": "B",
+      "offset": 35
     }
   ],
-  "location": "MovieReservationSteps.chooseSeat(String,String)"
+  "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 166200,
+  "duration": 55800,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 327300,
+  "duration": 210000,
   "status": "passed"
 });
 formatter.match({
@@ -267,7 +275,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 74400,
+  "duration": 102800,
   "status": "passed"
 });
 formatter.scenario({
@@ -286,12 +294,12 @@ formatter.step({
 formatter.step({
   "line": 23,
   "name": "Избира името на филма \"Железният човек\"",
-  "keyword": "And "
+  "keyword": "When "
 });
 formatter.step({
   "line": 24,
   "name": "Избира датата и часа на прожекцията \"06-02-2021 18:30\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 25,
@@ -300,7 +308,7 @@ formatter.step({
 });
 formatter.step({
   "line": 26,
-  "name": "Избира местата \"14\", \"15\"",
+  "name": "Избира местата \"14\", \"15\" за зала \"B\"",
   "keyword": "And "
 });
 formatter.step({
@@ -323,7 +331,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 470900,
+  "duration": 358000,
   "status": "passed"
 });
 formatter.match({
@@ -336,7 +344,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 77700,
+  "duration": 67700,
   "status": "passed"
 });
 formatter.match({
@@ -349,7 +357,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 384900,
+  "duration": 203100,
   "status": "passed"
 });
 formatter.match({
@@ -362,7 +370,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 97200,
+  "duration": 48900,
   "status": "passed"
 });
 formatter.match({
@@ -374,19 +382,23 @@ formatter.match({
     {
       "val": "15",
       "offset": 22
+    },
+    {
+      "val": "B",
+      "offset": 35
     }
   ],
-  "location": "MovieReservationSteps.chooseSeat(String,String)"
+  "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 74200,
+  "duration": 92300,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 293000,
+  "duration": 213100,
   "status": "passed"
 });
 formatter.match({
@@ -399,7 +411,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 55600,
+  "duration": 44300,
   "status": "passed"
 });
 formatter.scenario({
@@ -418,12 +430,12 @@ formatter.step({
 formatter.step({
   "line": 32,
   "name": "Избира името на филма \"Железният човек\"",
-  "keyword": "And "
+  "keyword": "When "
 });
 formatter.step({
   "line": 33,
   "name": "Избира датата и часа на прожекцията \"06-02-2021 18:30\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 34,
@@ -432,7 +444,7 @@ formatter.step({
 });
 formatter.step({
   "line": 35,
-  "name": "Избира местата \"11\", \"12\"",
+  "name": "Избира местата \"11\", \"12\" за зала \"B\"",
   "keyword": "And "
 });
 formatter.step({
@@ -455,7 +467,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 362100,
+  "duration": 289900,
   "status": "passed"
 });
 formatter.match({
@@ -468,7 +480,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 60800,
+  "duration": 54300,
   "status": "passed"
 });
 formatter.match({
@@ -481,7 +493,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 276900,
+  "duration": 209400,
   "status": "passed"
 });
 formatter.match({
@@ -494,7 +506,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 75900,
+  "duration": 48100,
   "status": "passed"
 });
 formatter.match({
@@ -506,19 +518,23 @@ formatter.match({
     {
       "val": "12",
       "offset": 22
+    },
+    {
+      "val": "B",
+      "offset": 35
     }
   ],
-  "location": "MovieReservationSteps.chooseSeat(String,String)"
+  "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 70400,
+  "duration": 69000,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 320000,
+  "duration": 236400,
   "status": "passed"
 });
 formatter.match({
@@ -531,7 +547,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 53200,
+  "duration": 32600,
   "status": "passed"
 });
 formatter.scenario({
@@ -550,12 +566,12 @@ formatter.step({
 formatter.step({
   "line": 41,
   "name": "Избира името на филма \"Железният човек\"",
-  "keyword": "And "
+  "keyword": "When "
 });
 formatter.step({
   "line": 42,
   "name": "Избира датата и часа на прожекцията \"06-02-2021 18:30\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 43,
@@ -564,7 +580,7 @@ formatter.step({
 });
 formatter.step({
   "line": 44,
-  "name": "Избира местата \"\", \"\"",
+  "name": "Избира местата \"\", \"\" за зала \"B\"",
   "keyword": "And "
 });
 formatter.step({
@@ -587,7 +603,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 412900,
+  "duration": 273700,
   "status": "passed"
 });
 formatter.match({
@@ -600,7 +616,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 51700,
+  "duration": 55400,
   "status": "passed"
 });
 formatter.match({
@@ -613,7 +629,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 246000,
+  "duration": 215700,
   "status": "passed"
 });
 formatter.match({
@@ -626,7 +642,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 66800,
+  "duration": 100400,
   "status": "passed"
 });
 formatter.match({
@@ -638,19 +654,23 @@ formatter.match({
     {
       "val": "",
       "offset": 20
+    },
+    {
+      "val": "B",
+      "offset": 31
     }
   ],
-  "location": "MovieReservationSteps.chooseSeat(String,String)"
+  "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 188900,
+  "duration": 102000,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 38200,
+  "duration": 18900,
   "status": "passed"
 });
 formatter.match({
@@ -663,7 +683,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 107800,
+  "duration": 49400,
   "status": "passed"
 });
 formatter.scenario({
@@ -682,12 +702,12 @@ formatter.step({
 formatter.step({
   "line": 50,
   "name": "Избира името на филма \"Железният човек\"",
-  "keyword": "And "
+  "keyword": "When "
 });
 formatter.step({
   "line": 51,
   "name": "Избира датата и часа на прожекцията \"06-02-2021 18:30\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 52,
@@ -696,7 +716,7 @@ formatter.step({
 });
 formatter.step({
   "line": 53,
-  "name": "Избира местата \"14\", \"15\"",
+  "name": "Избира местата \"14\", \"15\" за зала \"B\"",
   "keyword": "And "
 });
 formatter.step({
@@ -719,7 +739,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 492800,
+  "duration": 243900,
   "status": "passed"
 });
 formatter.match({
@@ -732,7 +752,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 70500,
+  "duration": 34700,
   "status": "passed"
 });
 formatter.match({
@@ -745,7 +765,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 351700,
+  "duration": 280300,
   "status": "passed"
 });
 formatter.match({
@@ -758,7 +778,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 107500,
+  "duration": 63800,
   "status": "passed"
 });
 formatter.match({
@@ -770,19 +790,23 @@ formatter.match({
     {
       "val": "15",
       "offset": 22
+    },
+    {
+      "val": "B",
+      "offset": 35
     }
   ],
-  "location": "MovieReservationSteps.chooseSeat(String,String)"
+  "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 111600,
+  "duration": 113900,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 39500,
+  "duration": 22200,
   "status": "passed"
 });
 formatter.match({
@@ -795,7 +819,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 83300,
+  "duration": 59000,
   "status": "passed"
 });
 formatter.scenario({
@@ -814,12 +838,12 @@ formatter.step({
 formatter.step({
   "line": 59,
   "name": "Избира името на филма \"Железният човек\"",
-  "keyword": "And "
+  "keyword": "When "
 });
 formatter.step({
   "line": 60,
   "name": "Избира датата и часа на прожекцията \"\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 61,
@@ -828,7 +852,7 @@ formatter.step({
 });
 formatter.step({
   "line": 62,
-  "name": "Избира местата \"14\", \"15\"",
+  "name": "Избира местата \"14\", \"15\" за зала \"B\"",
   "keyword": "And "
 });
 formatter.step({
@@ -851,7 +875,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 655200,
+  "duration": 328400,
   "status": "passed"
 });
 formatter.match({
@@ -864,7 +888,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 76200,
+  "duration": 44500,
   "status": "passed"
 });
 formatter.match({
@@ -877,7 +901,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 59500,
+  "duration": 49900,
   "status": "passed"
 });
 formatter.match({
@@ -890,7 +914,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 113400,
+  "duration": 55200,
   "status": "passed"
 });
 formatter.match({
@@ -902,19 +926,23 @@ formatter.match({
     {
       "val": "15",
       "offset": 22
+    },
+    {
+      "val": "B",
+      "offset": 35
     }
   ],
-  "location": "MovieReservationSteps.chooseSeat(String,String)"
+  "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 67300,
+  "duration": 74300,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 29000,
+  "duration": 17300,
   "status": "passed"
 });
 formatter.match({
@@ -927,7 +955,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 48000,
+  "duration": 34900,
   "status": "passed"
 });
 formatter.scenario({
@@ -946,12 +974,12 @@ formatter.step({
 formatter.step({
   "line": 68,
   "name": "Избира името на филма \"\"",
-  "keyword": "And "
+  "keyword": "When "
 });
 formatter.step({
   "line": 69,
   "name": "Избира датата и часа на прожекцията \"\"",
-  "keyword": "When "
+  "keyword": "And "
 });
 formatter.step({
   "line": 70,
@@ -960,7 +988,7 @@ formatter.step({
 });
 formatter.step({
   "line": 71,
-  "name": "Избира местата \"14\", \"15\"",
+  "name": "Избира местата \"14\", \"15\" за зала \"B\"",
   "keyword": "And "
 });
 formatter.step({
@@ -983,7 +1011,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 328200,
+  "duration": 364600,
   "status": "passed"
 });
 formatter.match({
@@ -996,7 +1024,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 47500,
+  "duration": 50900,
   "status": "passed"
 });
 formatter.match({
@@ -1009,7 +1037,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 40800,
+  "duration": 34300,
   "status": "passed"
 });
 formatter.match({
@@ -1022,7 +1050,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 103100,
+  "duration": 57600,
   "status": "passed"
 });
 formatter.match({
@@ -1034,19 +1062,23 @@ formatter.match({
     {
       "val": "15",
       "offset": 22
+    },
+    {
+      "val": "B",
+      "offset": 35
     }
   ],
-  "location": "MovieReservationSteps.chooseSeat(String,String)"
+  "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 55800,
+  "duration": 49600,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 24500,
+  "duration": 17700,
   "status": "passed"
 });
 formatter.match({
@@ -1059,7 +1091,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 52600,
+  "duration": 98600,
   "status": "passed"
 });
 });
