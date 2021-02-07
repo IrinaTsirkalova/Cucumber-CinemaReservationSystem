@@ -32,14 +32,7 @@ public class MakeReservationService {
 						&& reservation.getDate().equals(movieDateAndTime));
         
         
-       // Date userTimeAfter60MinBeforeMovie = parseStringToDate("06-02-2021 17:30");  
-       // LocalTime userTimeBefore = LocalTime.parse("17:31"); 
-       // String userTimeString = new SimpleDateFormat("H:mm").format(userDate);//userTime
-       //LocalTime userTime = LocalTime.parse(userTimeString);
-       // String movieTimeString = new SimpleDateFormat("H:mm").format(movieDateAndTime);
-       //LocalTime movieTime = LocalTime.parse(movieTimeString);
-       //int isAfter = userTime.compareTo(userTimeBefore);
-      
+       
         long diffInMillies = Math.abs(userDate.getTime() - movieDateAndTime.getTime());
         long diffDay = TimeUnit.DAYS.convert(diffInMillies, TimeUnit.MILLISECONDS);
         long diffTime = TimeUnit.MINUTES.convert(diffInMillies, TimeUnit.MILLISECONDS);
