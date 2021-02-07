@@ -13,16 +13,16 @@ public class MakeReservationService {
 	public static String makeReservation(Date userDate, Movie movie, Date movieDateAndTime, int numberOfTickets, List<String> seats) {
 		
 		if(movie.getMovieName() == null || movie.getMovieName().isEmpty()) {
-			return "Неуспешна резервация. Моля изберете филм";
+			return "РќРµСѓСЃРїРµС€РЅР° СЂРµР·РµСЂРІР°С†РёСЏ. РњРѕР»СЏ РёР·Р±РµСЂРµС‚Рµ С„РёР»Рј";
 		}
 		if(movieDateAndTime == null) {
-			return "Неуспешна резервация. Моля изберете датата и час на прожекция";
+			return "РќРµСѓСЃРїРµС€РЅР° СЂРµР·РµСЂРІР°С†РёСЏ. РњРѕР»СЏ РёР·Р±РµСЂРµС‚Рµ РґР°С‚Р°С‚Р° Рё С‡Р°СЃ РЅР° РїСЂРѕР¶РµРєС†РёСЏ";
 		}
 		if(numberOfTickets == 0) {
-			return "Неуспешна резервация. Моля изберете броя на билетите";
+			return "РќРµСѓСЃРїРµС€РЅР° СЂРµР·РµСЂРІР°С†РёСЏ. РњРѕР»СЏ РёР·Р±РµСЂРµС‚Рµ Р±СЂРѕСЏ РЅР° Р±РёР»РµС‚РёС‚Рµ";
 		}
 		if(seats == null || seats.isEmpty()) {
-			return "Неуспешна резервация. Моля изберете място в залата";
+			return "РќРµСѓСЃРїРµС€РЅР° СЂРµР·РµСЂРІР°С†РёСЏ. РњРѕР»СЏ РёР·Р±РµСЂРµС‚Рµ РјСЏСЃС‚Рѕ РІ Р·Р°Р»Р°С‚Р°";
 		}
 
         List<Reservation> reservations = getReservation();
@@ -40,23 +40,23 @@ public class MakeReservationService {
         //int isAfter = userTime.compareTo(userTimeBefore);
         
         if(isSeatTaken  && userDate.compareTo(userTimeAfter60MinBeforeMovie)>0) {
-			return "Неуспешна резервация. Не можете да направите резервация по-късно от 60 минути преди филма. Избраните места са заети";
+			return "РќРµСѓСЃРїРµС€РЅР° СЂРµР·РµСЂРІР°С†РёСЏ. РќРµ РјРѕР¶РµС‚Рµ РґР° РЅР°РїСЂР°РІРёС‚Рµ СЂРµР·РµСЂРІР°С†РёСЏ РїРѕ-РєСЉСЃРЅРѕ РѕС‚ 60 РјРёРЅСѓС‚Рё РїСЂРµРґРё С„РёР»РјР°. РР·Р±СЂР°РЅРёС‚Рµ РјРµСЃС‚Р° СЃР° Р·Р°РµС‚Рё";
 		}else if(userDate.compareTo(userTimeAfter60MinBeforeMovie)>0) {
-			return "Неуспешна резервация. Не можете да направите резервация по-късно от 60 минути преди филма";
+			return "РќРµСѓСЃРїРµС€РЅР° СЂРµР·РµСЂРІР°С†РёСЏ. РќРµ РјРѕР¶РµС‚Рµ РґР° РЅР°РїСЂР°РІРёС‚Рµ СЂРµР·РµСЂРІР°С†РёСЏ РїРѕ-РєСЉСЃРЅРѕ РѕС‚ 60 РјРёРЅСѓС‚Рё РїСЂРµРґРё С„РёР»РјР°";
 		}
         
         if(isSeatTaken) {
         	
-			return "Избраните места са заети";
+			return "РР·Р±СЂР°РЅРёС‚Рµ РјРµСЃС‚Р° СЃР° Р·Р°РµС‚Рё";
 		
     }
 		
-		return "Успешно направихте резервация";
+		return "РЈСЃРїРµС€РЅРѕ РЅР°РїСЂР°РІРёС…С‚Рµ СЂРµР·РµСЂРІР°С†РёСЏ";
 	}
 	
   public static List<Reservation> getReservation(){
 	    Movie movie = new Movie();
-		movie.setMovieName("Железният човек");
+		movie.setMovieName("Р–РµР»РµР·РЅРёСЏС‚ С‡РѕРІРµРє");
 		
 		Date date = parseStringToDate("06-02-2021 18:30");
 		
