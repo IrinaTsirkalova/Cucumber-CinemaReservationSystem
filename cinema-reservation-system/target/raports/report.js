@@ -59,7 +59,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 84995500,
+  "duration": 96039700,
   "status": "passed"
 });
 formatter.match({
@@ -72,7 +72,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 65300,
+  "duration": 80600,
   "status": "passed"
 });
 formatter.match({
@@ -85,7 +85,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 238300,
+  "duration": 198000,
   "status": "passed"
 });
 formatter.match({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 823300,
+  "duration": 557600,
   "status": "passed"
 });
 formatter.match({
@@ -119,14 +119,14 @@ formatter.match({
   "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 88600,
+  "duration": 182300,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 46794200,
+  "duration": 47187400,
   "status": "passed"
 });
 formatter.match({
@@ -139,7 +139,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 1624900,
+  "duration": 2635900,
   "status": "passed"
 });
 formatter.scenario({
@@ -195,7 +195,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 329400,
+  "duration": 338900,
   "status": "passed"
 });
 formatter.match({
@@ -208,7 +208,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 80100,
+  "duration": 62300,
   "status": "passed"
 });
 formatter.match({
@@ -221,7 +221,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 215300,
+  "duration": 321700,
   "status": "passed"
 });
 formatter.match({
@@ -234,7 +234,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 59000,
+  "duration": 72700,
   "status": "passed"
 });
 formatter.match({
@@ -255,14 +255,14 @@ formatter.match({
   "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 55800,
+  "duration": 122700,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 210000,
+  "duration": 214000,
   "status": "passed"
 });
 formatter.match({
@@ -275,7 +275,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 102800,
+  "duration": 120000,
   "status": "passed"
 });
 formatter.scenario({
@@ -331,7 +331,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 358000,
+  "duration": 543000,
   "status": "passed"
 });
 formatter.match({
@@ -344,7 +344,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 67700,
+  "duration": 69100,
   "status": "passed"
 });
 formatter.match({
@@ -357,7 +357,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 203100,
+  "duration": 347300,
   "status": "passed"
 });
 formatter.match({
@@ -370,7 +370,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 48900,
+  "duration": 178100,
   "status": "passed"
 });
 formatter.match({
@@ -391,14 +391,14 @@ formatter.match({
   "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 92300,
+  "duration": 99600,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 213100,
+  "duration": 326600,
   "status": "passed"
 });
 formatter.match({
@@ -411,7 +411,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 44300,
+  "duration": 98000,
   "status": "passed"
 });
 formatter.scenario({
@@ -467,7 +467,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 289900,
+  "duration": 276700,
   "status": "passed"
 });
 formatter.match({
@@ -480,7 +480,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 54300,
+  "duration": 75300,
   "status": "passed"
 });
 formatter.match({
@@ -493,7 +493,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 209400,
+  "duration": 263600,
   "status": "passed"
 });
 formatter.match({
@@ -506,7 +506,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 48100,
+  "duration": 72500,
   "status": "passed"
 });
 formatter.match({
@@ -527,14 +527,14 @@ formatter.match({
   "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 69000,
+  "duration": 127900,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 236400,
+  "duration": 604500,
   "status": "passed"
 });
 formatter.match({
@@ -547,7 +547,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 32600,
+  "duration": 53900,
   "status": "passed"
 });
 formatter.scenario({
@@ -603,7 +603,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 273700,
+  "duration": 486100,
   "status": "passed"
 });
 formatter.match({
@@ -616,7 +616,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 55400,
+  "duration": 43900,
   "status": "passed"
 });
 formatter.match({
@@ -629,7 +629,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 215700,
+  "duration": 275700,
   "status": "passed"
 });
 formatter.match({
@@ -642,7 +642,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 100400,
+  "duration": 96900,
   "status": "passed"
 });
 formatter.match({
@@ -663,14 +663,14 @@ formatter.match({
   "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 102000,
+  "duration": 137200,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 18900,
+  "duration": 35500,
   "status": "passed"
 });
 formatter.match({
@@ -683,7 +683,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 49400,
+  "duration": 138900,
   "status": "passed"
 });
 formatter.scenario({
@@ -739,7 +739,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 243900,
+  "duration": 389200,
   "status": "passed"
 });
 formatter.match({
@@ -752,7 +752,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 34700,
+  "duration": 88900,
   "status": "passed"
 });
 formatter.match({
@@ -765,7 +765,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 280300,
+  "duration": 217900,
   "status": "passed"
 });
 formatter.match({
@@ -778,7 +778,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 63800,
+  "duration": 61900,
   "status": "passed"
 });
 formatter.match({
@@ -799,14 +799,14 @@ formatter.match({
   "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 113900,
+  "duration": 65300,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 22200,
+  "duration": 38100,
   "status": "passed"
 });
 formatter.match({
@@ -819,7 +819,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 59000,
+  "duration": 76300,
   "status": "passed"
 });
 formatter.scenario({
@@ -875,7 +875,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 328400,
+  "duration": 745800,
   "status": "passed"
 });
 formatter.match({
@@ -888,7 +888,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 44500,
+  "duration": 64100,
   "status": "passed"
 });
 formatter.match({
@@ -901,7 +901,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 49900,
+  "duration": 93700,
   "status": "passed"
 });
 formatter.match({
@@ -914,7 +914,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 55200,
+  "duration": 135500,
   "status": "passed"
 });
 formatter.match({
@@ -935,14 +935,14 @@ formatter.match({
   "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 74300,
+  "duration": 89800,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 17300,
+  "duration": 36500,
   "status": "passed"
 });
 formatter.match({
@@ -955,7 +955,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 34900,
+  "duration": 55600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1011,7 +1011,7 @@ formatter.match({
   "location": "MovieReservationSteps.openReservationScreen(String)"
 });
 formatter.result({
-  "duration": 364600,
+  "duration": 471400,
   "status": "passed"
 });
 formatter.match({
@@ -1024,7 +1024,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseMovie(String)"
 });
 formatter.result({
-  "duration": 50900,
+  "duration": 78000,
   "status": "passed"
 });
 formatter.match({
@@ -1037,7 +1037,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseTimeAndDate(String)"
 });
 formatter.result({
-  "duration": 34300,
+  "duration": 87100,
   "status": "passed"
 });
 formatter.match({
@@ -1050,7 +1050,7 @@ formatter.match({
   "location": "MovieReservationSteps.chooseNumberOfTickets(int)"
 });
 formatter.result({
-  "duration": 57600,
+  "duration": 72200,
   "status": "passed"
 });
 formatter.match({
@@ -1071,14 +1071,14 @@ formatter.match({
   "location": "MovieReservationSteps.chooseSeat(String,String,String)"
 });
 formatter.result({
-  "duration": 49600,
+  "duration": 60100,
   "status": "passed"
 });
 formatter.match({
   "location": "MovieReservationSteps.clickReservationButton()"
 });
 formatter.result({
-  "duration": 17700,
+  "duration": 23800,
   "status": "passed"
 });
 formatter.match({
@@ -1091,7 +1091,7 @@ formatter.match({
   "location": "MovieReservationSteps.receiveMessage(String)"
 });
 formatter.result({
-  "duration": 98600,
+  "duration": 72300,
   "status": "passed"
 });
 });
