@@ -11,7 +11,7 @@ This project is a simple cinema reservation system that uses behaviour-driven de
 
 - When making a reservation user has to choose the movie name, the number of tickets, the date and the time.
 
-- User cannot reserve already booked seats.
+- Users cannot reserve already booked seats.
 
 **The system has the following test scenarios:**
 
@@ -27,7 +27,7 @@ This project is a simple cinema reservation system that uses behaviour-driven de
 
 - Reserve a movie screening without choosing the number of tickets.
 
-- Reserve a movie screening without choosing the date and time of the screening.
+- Reserve a movie screening without selecting the date and time of the screening.
 
 - Reserve a movie screening without choosing the movie name
 
@@ -36,7 +36,7 @@ This project is a simple cinema reservation system that uses behaviour-driven de
 ![Screenshot 2022-10-16 at 18-59-24 Cucumber Features](https://user-images.githubusercontent.com/66736887/196046244-cbc8c13d-fc16-43ba-bf08-aec8da334e14.png)
 
 
-There are a Use case and Class diagram in the resources folder
+There are a Use case and Class diagram in the resources folder.
 
 **Use case diagram:**
 
