@@ -1,4 +1,4 @@
-##Cinema Reservation System
+## Cinema Reservation System
 
 This project is a simple cinema reservation system that uses behaviour-driven development with Cucumber framework. 
 
@@ -21,7 +21,7 @@ This project is a simple cinema reservation system that uses behaviour-driven de
 
 - Reserve a movie screening later than 60 minutes before the screening and for an unreserved seat.
 
- -Reserve a movie screening later than 60 minutes before the screening and for a reserved seat.
+- Reserve a movie screening later than 60 minutes before the screening and for a reserved seat.
 
 - Reserve a movie screening without choosing seats.
 
