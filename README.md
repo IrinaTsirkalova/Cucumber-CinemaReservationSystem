@@ -1,4 +1,4 @@
-Cinema Reservation System
+##Cinema Reservation System
 
 This project is a simple cinema reservation system that uses behaviour-driven development with Cucumber framework. 
 
