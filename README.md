@@ -7,7 +7,7 @@ This project is a simple cinema reservation system that uses behaviour-driven de
 
 - When making a reservation user has to choose the movie name, the number of tickets, the date and the time.
 
-- Movie screening reservations cannot be made later than sixty minutes before the movie
+- Movie screening reservations cannot be made later than sixty minutes before the movie.
 
 - When making a reservation user has to choose the movie name, the number of tickets, the date and the time.
 
@@ -29,7 +29,7 @@ This project is a simple cinema reservation system that uses behaviour-driven de
 
 - Reserve a movie screening without selecting the date and time of the screening.
 
-- Reserve a movie screening without choosing the movie name
+- Reserve a movie screening without choosing the movie name.
 
 **Report:**
 
