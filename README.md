@@ -5,8 +5,6 @@ This project is a simple cinema reservation system that uses behaviour-driven de
 
 **The system has the following requirements:**
 
-- When making a reservation user has to choose the movie name, the number of tickets, the date and the time.
-
 - Movie screening reservations cannot be made later than sixty minutes before the movie.
 
 - When making a reservation, the user has to choose the movie name, the number of tickets, the date and the time.
